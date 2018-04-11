@@ -7,8 +7,17 @@
 	<small font-size="5px">Hosted by Github</small>
 </head>
 <body>
-	<p class="writing">Hello there, didn't expect you here. Here's a doughnut for your time</p>
+	<!-- Script to redirectTo another site -->
+	<script type="text/javascript">
+		function redirectTo(sUrl) {
+		window.location.href = (sUrl)
+		}
+	</script>
+	
+	<p class="writing">Hello there, didn't expect you here. Here's a doughnut for your time <3</p>
 	<!-- Here is a doughnut -->
-	<img src="Doughnut.png" alt="No donut :(">
+	<img src="Doughnut.png" alt="No donut :(" onclick="redirectTo('www.google.com')">
+	
+	
 </body>
 </html>

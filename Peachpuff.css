@@ -1,10 +1,6 @@
-html {
-    position: relative;
-    min-height: 100%;
-}
-.header {
-	height: 60px;
-	background-color: #ff002b;
+a:hover {
+	color:green;
+	background: #ccffd3;
 }
 .writing {
 	font-size: 20px;
@@ -13,18 +9,60 @@ html {
 	margin-left: auto;
 	margin-right: auto;
 	width: 750px;
-	text-align: left;
 }
 #header {
+	font-size: 40px;
 	text-align: center;
-	color:#ffffff;
+	color:#000;
 }
-.inner {
-	background-color: #dddddd;
-	position: relative;
-    height: 99px;
-    margin-top: 40px;
-	border-top-width: 1px;
-	border-top-style: solid;
-	border-top-color: #dddddd;
+small#host {
+	font-family: sans-serif;
+	font-size: 13px;
+	display: block;
+	text-align: right;
+	padding-top: 30px;
+}	
+	/* Anything not included in footer  ¯\_(ツ)_/¯ */
+.homebar {
+	border-bottom: 1px solid #bdbdbd;
+	background: linear-gradient(#fafafa, #d6d6d6);
+	position: absolute;
+	height: 80px;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+	/* Small footer */
+footer.inner {
+	border-top: 1px solid #ddd;
+	background: #f5f5f5;
+	position: absolute;
+	height: 99px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+}
+.left {
+	float: left;
+	margin-left: 500px;
+}
+.right {
+	float: right;
+	margin-right: 700px;
+	list-style-type: none;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.sans {
+	font-family: sans-serif;
+	margin-top: 30px;
+	font-size: 13px;
+	color: #666;
+}
+#links ul{
+	list-style: none;
+}
+#links li {
+	display: inline;
 }

@@ -10,11 +10,6 @@ a:hover {
 	margin-right: auto;
 	width: 750px;
 }
-#header {
-	font-size: 40px;
-	text-align: center;
-	color:#000;
-}
 small#host {
 	font-family: sans-serif;
 	font-size: 13px;
@@ -22,15 +17,39 @@ small#host {
 	text-align: right;
 	padding-top: 30px;
 }	
+.headmargin {
+	margin-left: 300px;
+
+}
 	/* Anything not included in footer  ¯\_(ツ)_/¯ */
+#notfooter {
+	min-height: 100%;
+	margin: 0, 0, -140;
+}
+img#TGL {
+	height: 60px;
+	vertical-align: top;
+}
+body {
+	padding-top: 22px;
+}
 .homebar {
-	border-bottom: 1px solid #bdbdbd;
-	background: linear-gradient(#fafafa, #d6d6d6);
 	position: absolute;
-	height: 80px;
+	height: 60px;
 	top: 0px;
 	left: 0px;
 	width: 100%;
+	font-size: 40px;
+	line-height: 60px;
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+#toplinks{
+	text-decoration: none;
+	position: relative;
+	top: 60px;	
+	right: 1000px;
+	
 }
 
 	/* Small footer */
@@ -49,10 +68,8 @@ footer.inner {
 }
 .right {
 	float: right;
-	margin-right: 700px;
 	list-style-type: none;
-	padding-right: 30px;
-	padding-left: 30px;
+	margin-top: 30px;
 }
 .sans {
 	font-family: sans-serif;
@@ -60,9 +77,10 @@ footer.inner {
 	font-size: 13px;
 	color: #666;
 }
-#links ul{
+ul{
 	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	
 }
-#links li {
-	display: inline;
-}
+li {display: inline; text-decoration: none;}

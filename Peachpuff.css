@@ -1,9 +1,17 @@
-:root {
-		background-color: #FCFBFC;
+html {
+	 background-color: #FCFBFC;
+	 height: 100%;
+}
+a:visited {
+	text-decoration: none;
+	color: #0066CC;
 }
 a:hover {
-	color:green;
-	background: #ccffd3;
+	color: green;
+	background: radial-gradient(circle, #cffcae, #FCFBFC);
+}
+a {
+	text-decoration: none;
 }
 .writing {
 	font-size: 20px;
@@ -22,12 +30,15 @@ small#host {
 }	
 .headmargin {
 	margin-left: 300px;
-
+	height: -50px;
 }
 	/* Anything not included in footer  ¯\_(ツ)_/¯ */
-#notfooter {
-	min-height: 100%;
-	margin: 0, 0, -140;
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 100%;
+	height: 100%;
 }
 img#TGL {
 	height: 60px;
@@ -35,6 +46,7 @@ img#TGL {
 }
 body {
 	padding-top: 22px;
+	height: inherit;
 }
 .homebar {
 	position: absolute;
@@ -47,27 +59,29 @@ body {
 	font-family: arial, helvetica, sans-serif;
 	font-weight: bold;
 }
+#sign {
+	float: right;
+	height: 60px;
+}
 #toplinks{
-	text-decoration: none;
-	position: relative;
-	top: 60px;	
-	right: 1000px;
-	
+	position: inherit;
+	right: 600px;
+	top: 0px;
+	font-size: 20px;
 }
 
 	/* Small footer */
-footer.inner {
+div.inner {
 	border-top: 1px solid #ddd;
 	background: #f5f5f5;
 	position: absolute;
 	height: 99px;
+	width: inherit;
 	bottom: 0px;
-	left: 0px;
-	width: 100%;
 }
 .left {
 	float: left;
-	margin-left: 500px;
+	margin-left: 25%;
 }
 .right {
 	float: right;
